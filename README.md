@@ -1,4 +1,64 @@
-# Getting Started with Create React App
+# YouTube Clone
+
+![YouTube Clone](./screenshots/image.png)
+
+This web app is a Youtube clone developed using `React`, [Material UI](https://mui.com/) and the [RapidAPI's Youtube API v3](https://rapidapi.com/ytdlfree/api/youtube-v31). On here you are able to,
+
+- Search for videos
+- Watch videos from the different categories available in the sidebar.
+- You'll also find a recommended videos section when you watch a video.
+
+This is my first showcase project. The main objective behind working on this project is to showcase my skills and knowledge in `React` and `MaterialUI` and personally to practice more on the same.
+
+## Search for videos
+
+![Search page](./screenshots/image-1.png)
+
+## Video from categories
+
+![Alt text](./screenshots/image-2.png)
+
+## Watch a video
+
+![Alt text](./screenshots/image-3.png)
+
+## Clone a clone?
+
+### Clone the project
+
+Go the directory where you want to clone the project on your system and type below git command in the terminal.
+
+```bash
+git clone https://github.com/Tejas-Bangera/youtube-clone.git
+```
+
+Go to the project directory using the terminal.
+
+```bash
+cd youtube-clone
+```
+
+### RapidAPI Setup
+
+1. First up go to [RapidAPI](https://rapidapi.com) and create your account.
+1. Subscribe to [Youtube v3](https://rapidapi.com/ytdlfree/api/youtube-v31) API
+1. Go to Endpoints and from the Code Snippets section copy the `X-RapidAPI-Key`.
+1. Paste the key in the `youtube-clone/.env` file of the app.
+1. All done!
+
+Back to your terminal!
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run it in your system!
+
+```bash
+npm start
+```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
