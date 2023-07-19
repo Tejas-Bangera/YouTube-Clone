@@ -1,4 +1,4 @@
-import { Stack } from "@mui/material";
+import { Stack, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 import { logo } from "../utils/constants";
 import SearchBar from "./SearchBar";
@@ -23,6 +23,9 @@ const Navbar = () => (
       }}
     >
       <img src={logo} alt="Logo" height={45} />
+      <Typography variant="h6" color="#fff" ml={2} letterSpacing={-1}>
+        YouTube Clone
+      </Typography>
     </Link>
     <SearchBar />
   </Stack>
