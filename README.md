@@ -26,13 +26,9 @@ This is my first showcase project. The main objective behind working on this pro
 
 ### Clone the project
 
-Go the directory where you want to clone the project on your system and type below git command in the terminal.
+Clone the project in a folder in your system.
 
-```bash
-git clone https://github.com/Tejas-Bangera/youtube-clone.git
-```
-
-Go to the project directory using the terminal.
+Go to the project directory.
 
 ```bash
 cd youtube-clone
@@ -49,6 +45,8 @@ cd youtube-clone
 Back to your terminal!
 
 ### Install Dependencies
+
+Make sure you are in the project directory `/youtube-clone` before you execute the below command.
 
 ```bash
 npm install
